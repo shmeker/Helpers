@@ -3,6 +3,30 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Smstr.Helpers.Parsers</PackageId>
+    <Authors>Ante Majić</Authors>
+    <Product>Smstr.Helpers.Parsers</Product>
+    <Description>Parser library for numeric primitive types.</Description>
+    <PackageProjectUrl>https://github.com/shmeker/Helpers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shmeker/Helpers</RepositoryUrl>
+    <PackageIcon>logo-small.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\antem\Desktop\logo-small.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
