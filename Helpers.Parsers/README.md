@@ -1,7 +1,7 @@
 
 # Welcome to the Parser helpers library
 
-This is a simple library for for converting string, char and boolean values to other numeric types.
+This is a simple library for converting string, char and boolean values to other numeric types.
 Every method returns *nullable* version of types, with value of `null` when conversion is not possible.
 
 ## Supported types
